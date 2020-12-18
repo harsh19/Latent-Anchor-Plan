@@ -6,6 +6,8 @@ Code and Data for our Findings of EMNLP 2020 paper titled 'Narrative Text Genera
 ### Code
 TODO
 
+Update(18 Dec): Still finishing off some code cleanup. Aiming for code release within next few weeks.
+
 
 ### Requirements
 - python 3.7.2
