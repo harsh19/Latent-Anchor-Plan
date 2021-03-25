@@ -16,6 +16,18 @@ Processed data can be found at [Link](https://drive.google.com/drive/folders/16a
 
 Copy the data from the above link to data/ folder
 
+Processed vocab file: [Link](https://drive.google.com/drive/folders/16aAIosERw5CQPiKkbUr0xn1O3sNFJvlz?usp=sharing) -> saved_model_vocab_file -> vocabs/vocab.pkl
+
+
+### Saved Model
+
+We also share trained model file
+[Link](https://drive.google.com/drive/folders/16aAIosERw5CQPiKkbUr0xn1O3sNFJvlz?usp=sharing) -> saved_model_vocab_file -> models/
+
+Download the model file, and move to to code/tmp/models/ location. 
+
+Run the sampling and evaluation scripts at code/scripts/lap.sh
+
 
 ### Requirements
 - python 3.7.2
