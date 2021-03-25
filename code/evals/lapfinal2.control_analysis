@@ -1,0 +1,17 @@
+Reading from  tmp//samples/lapfinal2.storysamples.out
+j = 0 :  {"title": "drained battery", "plot": "listening power repairman nothing power", "story": "</s> i was listening to my favorite song . </s> the power in my house was having a hard time . </s> my wife got a phone call from the cable company . </s> i was able to do nothing but lost the battery . </s> she called the power company .", "storylines": ["i was listening to my favorite song .", "the power in my house was having a hard time .", "my wife got a phone call from the cable company .", "i was able to do nothing but lost the battery .", "she called the power company ."]}
+***** plot mode was used. But EOL not found in err_cnt =  0  instances
+#instances = 8466
+cntp =  30861 42330 0.729057406094968
+cntn =  11469 42330 0.2709425939050319
+cntp =  31060 42330 0.7337585636664304
+cntn =  11270 42330 0.26624143633356956
+cntp =  31905 42330 0.7537207654145995
+cntn =  10425 42330 0.24627923458540044
+=================================
+=================================
+--->>> ctrl_evals:  =  (30861, 11469)
+--->>> ctrl_evals_stem:  =  (31060, 11270)
+--->>> ctrl_evals_any:  =  (31905, 10425)
+=================================
+=================================

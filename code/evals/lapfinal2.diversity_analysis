@@ -1,0 +1,62 @@
+Reading from  tmp//samples/lapfinal2.storysamples.out
+j = 0 :  {"title": "drained battery", "plot": "listening power repairman nothing power", "story": "</s> i was listening to my favorite song . </s> the power in my house was having a hard time . </s> my wife got a phone call from the cable company . </s> i was able to do nothing but lost the battery . </s> she called the power company .", "storylines": ["i was listening to my favorite song .", "the power in my house was having a hard time .", "my wife got a phone call from the cable company .", "i was able to do nothing but lost the battery .", "she called the power company ."]}
+***** plot mode was used. But EOL not found in err_cnt =  0  instances
+#instances = 8466
+-------unigrams
+5442
+[('.', 42304), ('the', 19849), ('to', 18462), ('was', 15646), ('a', 12205), ('she', 11005), ('he', 6554), ('her', 5312), ('it', 4957), ('and', 4871), ('his', 4646)]
+entropy =  5.435463133850539
+-------bigrams
+47627
+[('. she', 8453), ('. he', 4784), ('. the', 3346), ('to the', 3066), ('. i', 2940), ('she was', 2865), ('to get', 2157), ('wanted to', 1775), ('it was', 1678), ('. they', 1617), ('he was', 1575)]
+entropy =  8.599371518644068
+-------trigrams
+134187
+[('. she was', 2228), ('went to the', 1127), ('. he was', 1083), ('. it was', 809), ('was able to', 761), ('. she had', 714), ('to get a', 705), ('. i was', 610), ('to go to', 580), ('was at the', 565), ('. one day', 565)]
+entropy =  10.65693553147626
+-------gm
+GM =  7.927054944271006
+-------unigrams
+4906
+[('tom', 260), ('kia', 174), ('parents', 162), ('know', 159), ('happy', 154), ('told', 144), ('found', 129), ('susan', 125), ('broke', 123), ('thought', 119), ('call', 118)]
+entropy =  7.648976961994448
+-------bigrams
+31070
+[('susan susan', 62), ('ted ted', 46), ('fran fran', 45), ('alicia alicia', 40), ('todd todd', 32), ('fish fish', 31), ('george george', 29), ('sandwich sandwich', 29), ('cindy cindy', 26), ('alex alex', 26), ('michelle michelle', 25)]
+entropy =  10.245655312599819
+-------trigrams
+24608
+[('susan susan susan', 36), ('ted ted ted', 30), ('fran fran fran', 28), ('alicia alicia alicia', 24), ('todd todd todd', 20), ('sandwich sandwich sandwich', 18), ('george george george', 17), ('bella bella bella', 15), ('fish fish fish', 13), ('karen karen karen', 13), ('cindy cindy cindy', 12)]
+entropy =  10.06808817879582
+-------gm
+GM =  9.240526173901161
+=================================
+=================================
+--->>> diversity_evals: generate_story_samples: stories--->  {'uni_entropy': 5.435463133850539, 'uni_uniqcnt': 5442, 'bi_entropy': 8.599371518644068, 'bi_uniqcnt': 47627, 'tri_entropy': 10.65693553147626, 'tri_uniqcnt': 134187, 'geom_mean_allentropy': 7.927054944271006, 'total_token_cnt': 363852, 'data_cnt': 8466}
+--->>> diversity_evals: diversity_evals_plots: plots--->  {'uni_entropy': 7.648976961994448, 'uni_uniqcnt': 4906, 'bi_entropy': 10.245655312599819, 'bi_uniqcnt': 31070, 'tri_entropy': 10.06808817879582, 'tri_uniqcnt': 24608, 'geom_mean_allentropy': 9.240526173901161, 'unigram_repetition_cnt': 5169, 'total_token_cnt': 42330, 'data_cnt': 8466}
+---------------------------------
+[diversity_inter len(gt_lst =  999000
+[diversity_inter] gt_lst[0] =  {'image_id': 0, 'caption': "mary was having a hard time sleeping . she accidentally dropped her thumb . she had to take a piece of trash to the floor . it was so cheap she could n't afford to clean up . she picked up the metal pieces .", 'id': 0}
+creating index...
+index created!
+Loading and preparing results...     
+DONE (t=0.00s)
+creating index...
+index created!
+tokenization...
+setting up scorers...
+computing Bleu score...
+{'testlen': 37576, 'reflen': 37575, 'guess': [37576, 36576, 35576, 34576], 'correct': [35520, 26005, 13678, 5577]}
+ratio: 1.0000266134397606
+Bleu_1: 0.945
+Bleu_2: 0.820
+Bleu_3: 0.637
+Bleu_4: 0.452
+computing Rouge score...
+ROUGE_L: 0.356
+computing CIDEr score...
+CIDEr: 0.000
+[diversity_inter]:  dict_items([('Bleu_1', 0.9452842239727235), ('Bleu_2', 0.8198068252059472), ('Bleu_3', 0.6369365640547917), ('Bleu_4', 0.45183368926160133), ('ROUGE_L', 0.3555219948127085), ('CIDEr', 0.0)])
+--->>> diversity_evals - interstory bleu --->  {'Bleu_1': 0.9452842239727235, 'Bleu_2': 0.8198068252059472, 'Bleu_3': 0.6369365640547917, 'Bleu_4': 0.45183368926160133, 'ROUGE_L': 0.3555219948127085, 'CIDEr': 0.0}
+=================================
+=================================
